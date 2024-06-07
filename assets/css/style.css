@@ -453,3 +453,16 @@ a {
   border-radius: 26px;
   background: var(--primary-color);
 }
+.features-reverse {
+  margin-top: 70px;
+}
+.features-reverse .body {
+  flex-direction: row-reverse;
+}
+.features-reverse .content {
+  width: 49%;
+}
+.features-reverse .images img {
+  width: 470px;
+  height: 440px;
+}
