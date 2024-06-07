@@ -357,12 +357,18 @@ a {
   padding: 96px 0;
   background: #2e2100;
 }
-.feedback-item {
+.feedback-list {
   display: flex;
+  overflow: hidden;
+}
+.feedback-item {
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
 }
 .feedback-item .avatar {
-  width: 77px;
-  height: 77px;
+  width: 72px;
+  height: 72px;
   border-radius: 50%;
   object-fit: cover;
 }
